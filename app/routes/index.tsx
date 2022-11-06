@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <main className="min-h-screen min-w-screen bg-black sm:flex sm:items-center sm:justify-center">
       <iframe
-        className="w-screen h-screen"
+        className="w-screen h-screen pointer-events-none"
         title="elks current events"
         src={slides}
         frameBorder="0"
